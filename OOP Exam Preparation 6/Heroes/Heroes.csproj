@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Heroes\**" />
+    <Compile Remove="Models\Map\**" />
+    <Compile Remove="Models\Weapons\**" />
+    <EmbeddedResource Remove="Models\Heroes\**" />
+    <EmbeddedResource Remove="Models\Map\**" />
+    <EmbeddedResource Remove="Models\Weapons\**" />
+    <None Remove="Models\Heroes\**" />
+    <None Remove="Models\Map\**" />
+    <None Remove="Models\Weapons\**" />
+  </ItemGroup>
+
+</Project>
